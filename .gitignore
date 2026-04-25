@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+*.egg-info/
+
+# Environment (contains your personal settings)
+.env
+
+# Voice models (too large for git)
+voices/*.onnx
+voices/*.onnx.json
+
+# Whisper model cache
+~/.cache/whisper/
+
+# Logs
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
