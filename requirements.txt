@@ -1,0 +1,21 @@
+# Bestie Voice AI — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── AI / Speech ──────────────────────────────────────────────────
+openai-whisper          # Speech-to-text (Whisper by OpenAI, runs locally)
+# faster-whisper        # Faster alternative — uncomment to use instead
+
+# ── Audio ─────────────────────────────────────────────────────────
+sounddevice             # Microphone input + audio playback
+soundfile               # Read/write WAV files
+numpy                   # Audio array processing
+
+# ── Networking ────────────────────────────────────────────────────
+requests                # Talk to Ollama API (local HTTP)
+
+# ── Optional: Wake Word (always-listening) ─────────────────────────
+# openwakeword           # Uncomment for always-on wake word detection
+# pyaudio                # Required by openwakeword
+
+# ── Optional: GUI ─────────────────────────────────────────────────
+# tkinter is built-in with Python — no install needed

@@ -1,0 +1,12 @@
+[
+  {
+    "text": "study 8 pm today.",
+    "time": "08:00",
+    "done": false
+  },
+  {
+    "text": "study at 6pm",
+    "time": "18:00",
+    "done": false
+  }
+]
