@@ -1,0 +1,34 @@
+# ============================================================
+#  requirements.txt — All dependencies for Bestie AI
+#  Install: pip install -r requirements.txt
+# ============================================================
+
+# ── Core AI ──────────────────────────────────────────────────
+openai-whisper          # Local speech-to-text
+ollama                  # Ollama Python client (Oracle VM)
+groq                    # Groq API client (cloud LLM + vision)
+
+# ── Audio ────────────────────────────────────────────────────
+sounddevice             # Microphone input + audio playback
+soundfile               # WAV file read/write
+numpy                   # Audio array processing
+pyaudio                 # Required for some audio backends
+
+# ── Screen ───────────────────────────────────────────────────
+mss                     # Fast cross-platform screen capture
+Pillow                  # Image processing
+pytesseract             # OCR fallback for screen analysis
+
+# ── Automation ───────────────────────────────────────────────
+pyautogui               # Mouse click + keyboard typing
+
+# ── Google Calendar ──────────────────────────────────────────
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+
+# ── Networking ───────────────────────────────────────────────
+requests                # HTTP calls to Ollama + NewsAPI
+
+# ── Utilities ────────────────────────────────────────────────
+python-dotenv           # Load .env file automatically
